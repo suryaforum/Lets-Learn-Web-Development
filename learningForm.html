@@ -1,19 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning Form</title>
-</head>
-<body>
+  </head>
+  <body>
+    <h1>Basics</h1>
     <form action="/action">
-        <input>
-        <input type="text">
-        <input type="password">
-        <input type="number">
-        <input type="time">
-        <input type="color">
+      <div>
+        <label for="username"> Username: </label>
+        <input
+          type="text"
+          id="username"
+          placeholder="Enter username"
+          name="user"
+        />
+      </div>
+      <div>
+        <label for="password"> Password: </label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter password"
+          name="pass"
+        />
+      </div>
+      <div>
+        <label for="age"> Enter Age: </label>
+        <input type="number" id="age" placeholder="Enter age" />
+      </div>
+      <!-- By default type="submit" -->
+      <!-- <button> submit </button>  -->
 
+      <!-- type="submit" -->
+      <input type="submit" value="submit" />
+
+      <!-- type="button" -- it will perform the directed actions-->
+      <button type="button">hello</button>
+
+      <!-- type="reset" -- it will reset the form -->
+      <button type="reset">reset</button>
+      <br />
+      <input type="button" value="click me" onclick="alert('hello')" />
+      <input type="submit" value="click me2" />
     </form>
-</body>
+    <hr />
+
+    <h1>Youtube Search</h1>
+    <form action="https://www.youtube.com/results">
+      <input type="text" placeholder="search in youtube" name="search_query" />
+      <button>search</button>
+    </form>
+    <hr />
+
+    <h1>Practice </h1>
+    <form action="https://www.google.com/search">
+      <input type="text" placeholder="search in google" name="q" />
+      <button>search</button>
+    </form>
+    <hr />
+
+    <h1>Checkbox</h1>
+    <form action="/server">
+      <input type="checkbox" id="age" name="age" />
+      <label for="age"> I am 18+ </label>
+      <button>submit</button>
+    </form>
+    <hr />
+
+    <h1>Radio Button</h1>
+    <form action="/server"></form>
+  </body>
 </html>
