@@ -6,7 +6,7 @@
     <title>Learning Form</title>
   </head>
   <body>
-    <h1>Basics</h1>
+    <h1>* Form Basics </h1>
     <form action="/action">
       <div>
         <label for="username"> Username: </label>
@@ -47,29 +47,42 @@
     </form>
     <hr />
 
-    <h1>Youtube Search</h1>
+    <h1>* Youtube Search</h1>
     <form action="https://www.youtube.com/results">
       <input type="text" placeholder="search in youtube" name="search_query" />
       <button>search</button>
     </form>
     <hr />
 
-    <h1>Practice </h1>
+    <h1> * Practice </h1>
     <form action="https://www.google.com/search">
       <input type="text" placeholder="search in google" name="q" />
       <button>search</button>
     </form>
     <hr />
 
-    <h1>Checkbox</h1>
+    <h1> * Checkbox</h1>
+    <h5>Choose your subjects: </h5>
     <form action="/server">
-      <input type="checkbox" id="age" name="age" />
-      <label for="age"> I am 18+ </label>
+      <input type="checkbox" id="maths" name="subjects" value="mat"/>
+      <label for="maths"> Maths </label>
+      <input type="checkbox" id="science" name="subjects" value="sci" />
+      <label for="science"> Science </label>
+      <input type="checkbox" id="english" name="subjects" value="eng"/>
+      <label for="english"> English </label>
       <button>submit</button>
     </form>
     <hr />
 
-    <h1>Radio Button</h1>
-    <form action="/server"></form>
+    <h1>* Radio Button</h1>
+    <form action="/server">
+      <input type="radio" name="fruit" id="apple" value="apple" />
+      <label for="apple"> Apple </label>
+      <input type="radio" name="fruit" id="manago" value="manago" />
+      <label for="manago"> Manago </label>
+      <input type="radio" name="fruit" id="banana" value="banana" />
+      <label for="banana"> Banana </label>
+      <button>submit</button>
+    </form>
   </body>
 </html>

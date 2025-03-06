@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Select</title>
+</head>
+
+<body>
+    <h1>Select Element</h1>
+    <h5>Dropdown</h5>
+    <form action="/server">
+        <div>
+            Choose your profession:
+            <select name="profession" id="profession">
+                <option>Select Your option</option>
+                <option value="1" selected> Doctor </option>
+                <option value="2"> Engineer </option>
+                <option value="3"> Teacher </option>
+                <option value="4"> Businessman </option>
+                <option value="5"> Student </option>
+            </select>
+                <button> submit  </button>
+        </div>
+    </form>
+
+    <h1>Range</h1>
+    <form action="/server">
+        <div>
+            <label for="vol">Select the volume level:</label>
+            <input type="range" id="vol" name="volume" min="0" max="10" step="2" value="6">
+            <button> submit  </button> 
+        </div>
+    </form>
+
+    <h1>Text Area</h1>
+    <form action="/server">
+        <div>
+            <label for="msg">Write your message:</label>
+            <textarea id="msg" name="user_message" rows="2" cols="25">
+                The cat was playing in the garden.
+            </textarea>
+            <button> submit  </button>
+        </div>
+    </form>
+</body>
+
+</html>
