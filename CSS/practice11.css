@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    text-decoration: red wavy underline;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    text-align: right;
+    text-decoration: pink line-through;
+    font-family: fantasy;
+}
+
+h2 {
+    font-weight: 400;
+    text-decoration: wavy overline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 1.5;
+}
