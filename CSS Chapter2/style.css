@@ -1,0 +1,150 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h3 {
+    color: #B92B27;
+}
+
+#login {
+    background-color: #B92B27;
+    color: white;
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #B92B27;
+    border-radius: 5px;
+}
+
+#login:hover {
+    background-color: #E74C3C;
+    border: 1px solid #E74C3C;
+}
+
+#signup {
+    background-color: #B92B27;
+    color: white;
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #B92B27;
+    border-radius: 5px;
+}
+
+#signup:hover {
+    background-color: #E74C3C;
+    border: 1px solid #E74C3C;
+}
+
+.upvote {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.post a {
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li a {
+    color: hotpink;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
+
+input[type="password"] {
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
+
+/* #myId p {
+    color: red;
+    font-weight: bold;
+} */
+
+div[id="myId"] p {
+    color: green;
+    font-weight: bold;
+}
+
+h3:hover {
+    color: violet;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: violet;
+    color: white;
+}
+
+p:active {
+    font-weight: bold;
+    color: green;
+}
+
+/* Pseudo Class :checked */
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+/* pseudo class: nth-of-type() */
+div:nth-of-type(2n) {
+    background-color: violet;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1::first-letter {
+    color: green;
+    font-size: 40px;
+}
+
+p::first-line {
+    color: purple;
+    font-size: 20px;
+}
+
+p::selection{
+    background-color: yellowgreen;
+}
+
+h3 {
+    background-color: grey !important;
+}
+
+h3 {
+    background-color: yellow;
+}
